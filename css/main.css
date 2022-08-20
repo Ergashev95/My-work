@@ -1,0 +1,18 @@
+@import url(../css/fonts.css);
+
+:root {
+    --primary-color: #7177F1;
+    --body: #fff;
+    --text-color:  #323232;
+    --dots: #828282;
+    --dots-active: #7177F1;
+    --tab-text: #fff;
+    --footer-link: #7177F1;
+    --monserant: "Montserrat";
+    --trebuchet: "Trebuchet";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
