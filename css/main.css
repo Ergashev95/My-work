@@ -75,6 +75,16 @@ body {
     }
 }
 
+
+@keyframes circle {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .header__nav-link {
     font-size: 24px;
     font-weight: 400;
@@ -192,7 +202,7 @@ body {
 .navbar__container {
     position: relative;
 }
-.navbar__container::after{
+.navbar__container::before{
     content: '';
     width: 59px;
     height: 60px;
@@ -203,6 +213,19 @@ body {
     left: -5%;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation: rotate 3s linear infinite alternate;
+}
+
+.navbar__container::after{
+    content: '';
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    right: -5%;
+    top: 100%;
+    border: 5px solid #9297EF;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    animation: circle 3s linear infinite alternate;
+   
 }
 
 
