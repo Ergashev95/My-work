@@ -12,4 +12,10 @@
     .title {
         font-size: calc(28px + (12 + 12 * 0.7) * ((100vw - 320px) / 1920));
     }
+    .about__photo {
+        width: 100%;
+    }
+    .capabilities__image-img {
+        width: 100%;
+    }
 }
