@@ -315,7 +315,6 @@ body {
     text-transform: uppercase;
     border: unset;
     position: relative;
-
 }
 .accordion__button.collapsed {
     background: var(--body);
@@ -409,3 +408,18 @@ body {
     margin: 20px 0 30px;
 }
 /* works end */
+
+/* footer start */
+.footer {
+    padding-bottom: 100px;
+}
+.footer__link {
+    color: var(--white);
+    font-weight: 400;
+font-size: 20px;
+text-transform: capitalize;
+}
+.footer__link:hover {
+    color: var(--white);
+}
+/* footer end */
